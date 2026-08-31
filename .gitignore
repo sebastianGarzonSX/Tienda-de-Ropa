@@ -1,0 +1,19 @@
+# Salida de compilación
+bin/
+out/
+*.class
+
+# Archivos JAR / paquetes
+*.jar
+!lib/*.jar
+*.war
+*.ear
+
+# Logs y crash dumps de la JVM
+*.log
+hs_err_pid*
+replay_pid*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
